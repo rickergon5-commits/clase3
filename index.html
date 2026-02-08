@@ -1,28 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+  <meta charset="UTF-8">
+  <title> Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="javascript.js"></script>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"> 
 </head>
 <body>
-    <header style="margin: 0%; padding: 0%;">
-        <h1 style="background-color: blue;">Curriculo vitae</h1>
-        <p>mi primer cuuriculo</p>
-    </header>
-    <main>
-        <h2>que me gusta </h2>
-        <p>Mi nombre es: Richard reyes </p>
-        <p>soy Desarrollador web </p>
-        <p>y diseñador UX/UI</p>
-    </main>
-    <article>
-        <p>este es mi protafolio: <a href="">click aqui</a></p>
-    </article>
-</body>
+ <div class="cv"> 
+  <header class="hero">
+    <div class="photo">
+      <img src="foto.jpg" alt="Foto de perfil">
+    </div>
+    <div class="info">
+      <h1>Ricker Gon</h1>
+      <h2>Desarrollador Web Junior / Freelance</h2>
+      <p>
+        Estudiante de séptimo semestre de Ingeniería en Tecnologías de la Información,
+        con experiencia en desarrollo web con Django, bases de datos SQL e IoT.
+      </p>
+      <p>Guayaquil, Ecuador</p>
+  <div class="buttons">
+    <a href="#contacto">Contactar</a>
+    <a href="#proyectos">Ver proyectos</a>
+  </div>
+    </div>
+  </header>
+  <section class="about">
+    <h3 class="title">Sobre Mi</h3>
+    <p>Soy estudiante de Ingeniería en Tecnologías de la Información con enfoque en
+    desarrollo web. Tengo experiencia creando aplicaciones web con Django,
+    Ionic y bases de datos relacionales. Me especializo en soluciones simples,
+    funcionales y bien estructuradas.</p>
+  </section>
+  <section class="skills">
+    <h3 class="title">Habilidades Tecnicas</h4>
+     <div class="grid">
+       <div>HTML5 / CSS3</div>
+       <div>JavaScript</div>
+       <div>Python</div>
+       <div>Django</div>
+       <div>Ionic / Angular</div>
+       <div>MySQL / PostgreSQL</div>
+       <div>Git / GitHub</div>
+       <div>ESP32 / IoT</div>
+  </div>
+  </section>
+  <section id="proyectos" class="projects">
+    <h3 class="title">Proyectos</h3>
+    
+  <div class="card">
+    <h3>Sistema de Gestión de Ventas</h4>
+    <p>Aplicación web con Django para control de clientes, productos y facturación.</p>
+  </div>
+
+  <div class="card">
+    <h4>Cerradura Inteligente con ESP32</h4>
+    <p>Sistema IoT para control de acceso con ESP32 y app móvil.</p>
+  </div>
+
+  <div class="card">
+    <h3>Página Web de Servicios</h4>
+    <p>Landing page responsive usando HTML, CSS y JavaScript.</p>
+  </div>
+
+  </section>
+   <div class="grid-2">
+
+    <section>
+      <h3 class="title">Experiencia</h3>
+      <p><strong>Desarrollador Web Junior</strong></p>
+      <p>2024 - Actualidad</p>
+      <p>
+        Desarrollo de aplicaciones web, CRUD, dashboards y sistemas administrativos.
+      </p>
+      <!--<button onclick="contactar()">Contactar</button> -->
+    </section>
+
+    <section>
+      <h3 class="title">Educación</h3>
+      <p><strong>Ingeniería en TI</strong></p>
+      <p>Universidad XYZ</p>
+      <p>2022 - Actualidad</p>
+    </section>
+    
+<section id="contacto" class="contact">
+  <h3 class="title">Contacto</h3>
+  <p>Email: ricker@email.com</p>
+  <p>WhatsApp: +593 999999999</p>
+  <button onclick="mostrarMensaje()">Enviar mensaje</button>
+</section>
+
 <footer>
-    <p>
-        derechos reservados &copy;: 2026
-    </p>
+  <p>© 2026 - Ricker Gon | Web Developer</p>
 </footer>
+
+ </div>
+</body>
 </html>
