@@ -4,7 +4,11 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #030447;
+  
+  background-image: url('fff.png');
+  background-size: cover;
+  background-position: center;
+  image-rendering: auto;
   color: white;
 }
 .cv {
@@ -18,7 +22,9 @@ body {
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: linear-gradient(135deg, #1f43a5, #2563eb);
+  background-image: url('jjj.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .hero h1 {
@@ -29,7 +35,7 @@ body {
   margin: 10px;
   padding: 12px 25px;
   background: #ff6a00;
-  color: #1e3a8a;
+  color: black;
   text-decoration: none;
   border-radius: 6px;
   font-weight: bold;
